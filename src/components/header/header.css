@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    position: relative;
+    box-shadow: 0 5px 5px -5px #777;
+    align-items: center;
+    justify-content: stretch;
+    padding-left: 50px;
+    font-size: large;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+}

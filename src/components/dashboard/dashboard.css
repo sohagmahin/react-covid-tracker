@@ -1,0 +1,49 @@
+.dashboard {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.dashboard__charts {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+}
+
+.charts__doughnut {
+    display: flex;
+    border-radius: 10px;
+    height: 350px;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.charts__line {
+    display: flex;
+    border-radius: 10px;
+    height: 350px;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.dashboard__dataSheet {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 100%;
+    /* background-color: salmon; */
+}
